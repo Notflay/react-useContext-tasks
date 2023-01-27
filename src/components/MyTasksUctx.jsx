@@ -51,12 +51,6 @@ export default function MyTasksUctx() {
             : todo
         );
 
-      /* case FILT_TASK:
-        return state.filter((todo) => todo.completed);
-
-      case SHOW_TASKS:
-        return state; */
-
       default:
         return state;
     }
